@@ -7,7 +7,7 @@ header{
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    height:10rem;
+    height:6rem;
     text-align: center;
     font-size: 500%;
     font-weight: bold;
@@ -29,7 +29,7 @@ nav{
 button{
     width:18%;
     height: 50%;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     border: none;
 }
 .button1{
@@ -56,7 +56,7 @@ button{
 
 .search-box {
     transition: 0.3s;
-    width: 50%; /* Adjust width to occupy most of the bar */
+    width: 30%; /* Adjust width to occupy most of the bar */
     height: 2.5rem; /* Adjust height to match button */
     border-radius: 30px 0px 0px 30px;
     border: none;
@@ -66,7 +66,7 @@ button{
 .search-box:focus {
     background-color: white;
     outline: none;
-    width: 60%;
+    width: 35%;
 }
 
 .search-box:hover {
@@ -136,7 +136,7 @@ iframe{
     margin: 1rem;
     padding: 1rem;
     background-color: #D0B49F;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     text-align: center;
 }
 
@@ -159,7 +159,8 @@ iframe{
     margin-bottom: 1rem;
 }
 
-.button3 {
+.buy-now {
+    width: 60%;
     background-color: #A47551;
     color: white;
     border: none;
@@ -170,7 +171,7 @@ iframe{
     transition: background-color 0.3s;
 }
 
-.button3:hover {
+.buy-now:hover {
     background-color: #E4D4C8;
     color: #523a28;
 }
